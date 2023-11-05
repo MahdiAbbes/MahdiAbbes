@@ -5,7 +5,7 @@ FROM adoptopenjdk:8-jdk-hotspot
 WORKDIR /app
 
 # Copy your GestionStationSkiApplication JAR file to the container
-COPY target/gestion-station-ski-1.0.jar /app/.
+COPY gestion-station-ski-1.0.jar /app/.
 
 CMD ["java", "-jar", "gestion-station-ski-1.0.jar"]
 
